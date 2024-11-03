@@ -57,7 +57,9 @@ const Home = () => {
               href="/new"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring font-medium disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-br from-blue-500 to-blue-600 text-white hover:bg-black/90 px-6 py-2 text-lg"
             >
-              Generate Invoice
+              <Download size={22} className='mr-2'/>
+
+              Download Invoice
             </Link>
             <a
               target="_blank"

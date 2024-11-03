@@ -18,26 +18,26 @@ export const metadata: Metadata = {
     },
   },
   title:
-    "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+    "HDS Finance",
   description:
-    "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
+    "Dominate your finances with HDS Finance.",
   keywords: [
-    "invoice generator",
-    "free invoice template",
-    "invoice maker",
+    "HDSFinance",
+    "HDS Finance",
+    "finance",
     "online invoice",
     "create invoice",
   ],
   robots: "index, follow",
   openGraph: {
     title:
-      "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+      "HDS Finance",
     description:
-      "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
+      "Dominate your finances with HDS Finance.",
     url: "https://hdsfinance.nl/",
     type: "website",
     images: "/og-image.jpeg",
-    siteName: "Invoice Generator",
+    siteName: "HDS Finance",
   },
   twitter: {
     card: "summary_large_image",
