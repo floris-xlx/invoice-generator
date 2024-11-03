@@ -30,15 +30,15 @@ export const currencyList: {
   };
 }[] = [
   {
-    value: "INR",
-    label: "INR",
+    value: "EUR",
+    label: "EUR",
     details: {
       country: "the Netherlands",
-      currencySymbol: "₹",
-      currencyName: "the Netherlandsn Rupee",
-      currencyShortForm: "INR",
-      icon: IN,
-      iconName: "IN",
+      currencySymbol: "€",
+      currencyName: "EUR",
+      currencyShortForm: "EUR",
+      icon: EU,
+      iconName: "EU",
     },
   },
   {

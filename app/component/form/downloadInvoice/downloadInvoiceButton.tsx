@@ -51,7 +51,7 @@ export const DownloadInvoiceButton = () => {
 
               const defaultCurrency = currencyList.find(
                 (currencyDetail) =>
-                  currencyDetail.value.toLowerCase() === "INR".toLowerCase()
+                  currencyDetail.value.toLowerCase() === "EUR".toLowerCase()
               )?.details;
 
               const data = await fetch(

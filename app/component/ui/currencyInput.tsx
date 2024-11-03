@@ -51,7 +51,7 @@ const CurrencyInput = () => {
                 <Command className="w-full">
                   <CommandInput
                     placeholder="Search currency..."
-                    className="peer block w-full border-0 py-1.5 text-gray-900 focus:ring-0 sm:text-sm sm:leading-6 placeholder:text-neutral-700/40 placeholder:font-medium caret-orange-500"
+                    className="peer block w-full border-0 py-1.5 text-gray-900 focus:ring-0 sm:text-sm sm:leading-6 placeholder:text-neutral-700/40 placeholder:font-medium caret-blue-500"
                   />
                   <CommandEmpty>No framework found.</CommandEmpty>
                   <CommandGroup className="max-h-96 overflow-y-auto scrollbar-hide">
@@ -61,7 +61,7 @@ const CurrencyInput = () => {
                         value={currency.value}
                         onSelect={(currentValue) => {
                           const updatedValue =
-                            currentValue === value ? "INR" : currentValue;
+                            currentValue === value ? "EUR" : currentValue;
                           localStorage.setItem("currency", updatedValue);
                           onChange(updatedValue);
                           setOpen(false);
@@ -83,7 +83,7 @@ const CurrencyInput = () => {
                               "h-6 w-6 rounded-full",
                               value.toLowerCase() ===
                                 currency.value.toLowerCase()
-                                ? "opacity-100 bg-orange-500 text-white"
+                                ? "opacity-100 bg-blue-500 text-white"
                                 : "opacity-0"
                             )}
                           />
@@ -96,7 +96,7 @@ const CurrencyInput = () => {
             </Popover>
             <div
               className={`absolute inset-x-0 bottom-0 border-t border-gray-300  group-focus:border-t border-dashed ${
-                open ? "border-orange-500" : "group-hover:border-neutral-400"
+                open ? "border-blue-500" : "group-hover:border-neutral-400"
               }`}
               aria-hidden="true"
             />
@@ -104,7 +104,7 @@ const CurrencyInput = () => {
         );
       }}
       name="currency"
-      defaultValue={getInitialValue("currency", "INR")}
+      defaultValue={getInitialValue("currency", "EUR")}
     />
   );
 };

@@ -8,7 +8,7 @@ export const InvoiceDetailsPdf: React.FC<InvoiceItemDetails> = ({
   discount,
   taxRate,
   items,
-  currency = "INR",
+  currency = "EUR",
 }) => {
   const currencyType = currency;
   const currencyDetails = currencyList.find(

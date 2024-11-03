@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 export const InvoiceDetailsPreview: React.FC<
   InvoiceItemDetails & { onClick?: (step: string) => void }
-> = ({ note, discount, taxRate, items, currency = "INR", onClick }) => {
+> = ({ note, discount, taxRate, items, currency = "EUR", onClick }) => {
   const currencyType = currency;
   const currencyDetails = currencyList.find(
     (currency) => currency.value.toLowerCase() === currencyType.toLowerCase()
@@ -22,10 +22,10 @@ export const InvoiceDetailsPreview: React.FC<
     >
       {!!onClick && (
         <>
-          <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 rotate-[135deg] group-hover:block hidden absolute top-0 left-0" />
-          <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 -rotate-[135deg] group-hover:block hidden absolute top-0 right-0" />
-          <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 rotate-45 group-hover:block hidden absolute bottom-0 left-0" />
-          <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 -rotate-45 group-hover:block hidden absolute bottom-0 right-0 " />
+          <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 rotate-[135deg] group-hover:block hidden absolute top-0 left-0" />
+          <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 -rotate-[135deg] group-hover:block hidden absolute top-0 right-0" />
+          <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 rotate-45 group-hover:block hidden absolute bottom-0 left-0" />
+          <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 -rotate-45 group-hover:block hidden absolute bottom-0 right-0 " />
         </>
       )}
       <div className="grid grid-cols-2 items-center">

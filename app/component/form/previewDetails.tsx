@@ -30,10 +30,10 @@ export const PreviewDetails = ({
         >
           {!!onClick && (
             <>
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 rotate-[135deg] group-hover:block hidden absolute top-0 left-0" />
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 -rotate-[135deg] group-hover:block hidden absolute top-0 right-0" />
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 rotate-45 group-hover:block hidden absolute bottom-0 left-0" />
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 -rotate-45 group-hover:block hidden absolute bottom-0 right-0 " />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 rotate-[135deg] group-hover:block hidden absolute top-0 left-0" />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 -rotate-[135deg] group-hover:block hidden absolute top-0 right-0" />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 rotate-45 group-hover:block hidden absolute bottom-0 left-0" />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 -rotate-45 group-hover:block hidden absolute bottom-0 right-0 " />
             </>
           )}
           <YourDetailsPreview {...yourDetails} />
@@ -44,10 +44,10 @@ export const PreviewDetails = ({
         >
           {!!onClick && (
             <>
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 rotate-[135deg] group-hover:block hidden absolute top-0 left-0" />
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 -rotate-[135deg] group-hover:block hidden absolute top-0 right-0" />
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 rotate-45 group-hover:block hidden absolute bottom-0 left-0" />
-              <ChevronDown className="animate-pulse w-5 h-5 text-orange-500 -rotate-45 group-hover:block hidden absolute bottom-0 right-0 " />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 rotate-[135deg] group-hover:block hidden absolute top-0 left-0" />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 -rotate-[135deg] group-hover:block hidden absolute top-0 right-0" />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 rotate-45 group-hover:block hidden absolute bottom-0 left-0" />
+              <ChevronDown className="animate-pulse w-5 h-5 text-blue-500 -rotate-45 group-hover:block hidden absolute bottom-0 right-0 " />
             </>
           )}
           <CompanyDetailsPreview {...companyDetails} />

@@ -10,7 +10,7 @@ import { Controller } from "react-hook-form";
 import { getItemValue } from "@/lib/getInitialValue";
 
 export const InvoiceDetailsForm = () => {
-  const value = useGetValue("currency", "INR");
+  const value = useGetValue("currency", "EUR");
   const currencyDetails = currencyList.find(
     (currency) => currency.value.toLowerCase() === value.toLowerCase()
   )?.details;
@@ -141,7 +141,7 @@ export const InvoiceDetailsForm = () => {
                     onChange([...value, { itemDescription: "" }]);
                   }}
                   type="button"
-                  className="flex justify-center items-center text-orange-500 font-medium text-sm gap-2"
+                  className="flex justify-center items-center text-blue-500 font-medium text-sm gap-2"
                 >
                   <Plus className="w-4 h-4" />
                   <p>Add Item</p>
