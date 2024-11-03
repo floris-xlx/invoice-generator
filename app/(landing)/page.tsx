@@ -13,7 +13,6 @@ import {
   Receipt,
   Rocket,
   Twitter,
-  User,
   Users,
 } from "lucide-react";
 import Image from "next/image";
