@@ -4,13 +4,13 @@ import { GeistSans } from "geist/font/sans";
 import Script from "next/script";
 
 export const viewport: Viewport = {
-  themeColor: "#f97316",
+  themeColor: "#034efc",
   width: "device-width",
   initialScale: 1,
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL!),
+  metadataBase: new URL("https://hdsfinance.nl/"),
   alternates: {
     canonical: "/",
     languages: {
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
       "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
     description:
       "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
-    url: process.env.NEXT_PUBLIC_URL,
+    url: "https://hdsfinance.nl/",
     type: "website",
     images: "/og-image.jpeg",
     siteName: "Invoice Generator",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@ThatsPranav",
-    creator: "@ThatsPranav",
+    site: "@HDSFinance",
+    creator: "@HDSFinance",
   },
 };
 
@@ -72,9 +72,9 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f97316" />
-        <meta name="msapplication-TileColor" content="#f97316" />
-        <meta name="theme-color" content="#f97316" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#034efc" />
+        <meta name="msapplication-TileColor" content="#034efc" />
+        <meta name="theme-color" content="#034efc" />
       </head>
       <body className={`${GeistSans.className}`}>{children}</body>
     </html>
