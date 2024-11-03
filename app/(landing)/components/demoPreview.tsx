@@ -30,7 +30,7 @@ const defaultValue = {
     yourCity: "Utrecht",
     yourState: "",
     yourCountry: "the Netherlands",
-    yourLogo: "/pranav.png",
+    yourLogo: "/assets/ettienne.jpg",
     yourEmail: "ettienne@hdsfinance.nl",
     yourTaxId: "",
     yourZip: "3541CX",
