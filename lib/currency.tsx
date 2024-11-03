@@ -33,9 +33,9 @@ export const currencyList: {
     value: "INR",
     label: "INR",
     details: {
-      country: "India",
+      country: "the Netherlands",
       currencySymbol: "₹",
-      currencyName: "Indian Rupee",
+      currencyName: "the Netherlandsn Rupee",
       currencyShortForm: "INR",
       icon: IN,
       iconName: "IN",

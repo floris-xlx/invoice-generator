@@ -15,13 +15,13 @@ const DemoPreview = () => (
 const defaultValue = {
   companyDetails: {
     companyName: "HDS Finance",
-    companyAddress: "1600 Amphitheatre Parkway",
+    companyAddress: "1100 Parkway",
     companyCity: "Mountain View",
-    companyState: "CA",
+    companyState: "CO",
     companyCountry: "USA",
     companyLogo: "/android-chrome-192x192.png",
     companyTaxId: "",
-    companyZip: "94043",
+    companyZip: "11111",
     email: "support@hdsfinance.nl",
   },
   yourDetails: {

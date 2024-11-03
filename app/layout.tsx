@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       "Dominate your finances with HDS Finance.",
     url: "https://hdsfinance.nl/",
     type: "website",
-    images: "/og-image.jpeg",
+    images: "/og.png",
     siteName: "HDS Finance",
   },
   twitter: {

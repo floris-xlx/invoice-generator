@@ -16,7 +16,7 @@ export const PaymentDetailsForm = () => (
     />
     <CustomTextInput
       label="Account Name"
-      placeholder="Pranav"
+      placeholder="Floris"
       variableName="accountName"
     />
     <CustomTextInput

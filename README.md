@@ -6,7 +6,7 @@ This project provides a user-friendly invoice generation tool for freelancers, s
 
 ## ⛰️ Preview
 
-![806shots_so](https://github.com/pranavp10/invoice-generator/assets/49075129/403cffa1-b540-4d62-a9bd-c3c216802fe1)
+![806shots_so](https://github.com/Florisp10/invoice-generator/assets/49075129/403cffa1-b540-4d62-a9bd-c3c216802fe1)
 
 ## Key Features
 
@@ -28,7 +28,7 @@ This project provides a user-friendly invoice generation tool for freelancers, s
 Ensure that you have Bun installed.
 
 ```bash
-git clone https://github.com/pranavp10/invoice-generator.git
+git clone https://github.com/Florisp10/invoice-generator.git
 cd invoice-generator
 bun install
 bun run dev
@@ -49,4 +49,4 @@ You are free to use this code as inspiration. Please do not copy it directly. Cr
 
 ### Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=pranavp10/invoice-generator&type=Date)](https://star-history.com/#pranavp10/invoice-generator&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Florisp10/invoice-generator&type=Date)](https://star-history.com/#Florisp10/invoice-generator&Date)

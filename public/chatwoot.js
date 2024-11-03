@@ -4,7 +4,7 @@ window.chatwootSettings = {
   launcherTitle: "Chat with me now",
 };
 (function (d, t) {
-  const BASE_URL = "https://chatwoot.prolab.sh";
+  const BASE_URL = "https://chatwoot.HDS Finance.sh";
   var g = d.createElement(t),
     s = d.getElementsByTagName(t)[0];
   g.src = BASE_URL + "/packs/js/sdk.js";
