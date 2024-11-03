@@ -29,18 +29,7 @@ export const currencyList: {
     iconName: string;
   };
 }[] = [
-  {
-    value: "EUR",
-    label: "EUR",
-    details: {
-      country: "the Netherlands",
-      currencySymbol: "€",
-      currencyName: "EUR",
-      currencyShortForm: "EUR",
-      icon: EU,
-      iconName: "EU",
-    },
-  },
+
   {
     value: "USD",
     label: "USD",
