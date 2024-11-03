@@ -50,7 +50,7 @@ export const PaymentDetailsPreview: React.FC<
           </div>
           <div className="mb-2 grid grid-cols-2 items-center">
             <p className="truncate text-xs font-medium text-gray-500">
-              Account Number
+              Account IBAN 
             </p>
             {accountNumber ? (
               <p className="flex truncate text-xs font-medium text-gray-600">

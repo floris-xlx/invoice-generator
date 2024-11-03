@@ -56,7 +56,7 @@ export const PaymentDetailsPdf: React.FC<PaymentDetailsPdfProps> = ({
             </Text>
           </View>
           <View style={pdfUtils.flexRowItemCenter}>
-            <Text style={pdfTypography.paymentTitle}>Account Number</Text>
+            <Text style={pdfTypography.paymentTitle}>Account IBAN</Text>
             <Text
               style={{
                 flex: 1,
